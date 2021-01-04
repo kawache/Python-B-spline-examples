@@ -1,6 +1,6 @@
 # Python-B-spline-examples
 
-Exemples in Python about evaluating and interpolating a B-spline curve and their comparaison using Numpy, Scipy and Matplotlib.
+Examples in Python about evaluating and interpolating a B-spline curve and their comparaison using Numpy, Scipy and Matplotlib.
 
 ### **Requirements**
 
@@ -13,7 +13,7 @@ Exemples in Python about evaluating and interpolating a B-spline curve and their
 
 ## Getting hands dirty
 
-Assuming you already know a little about B-spline curves, if not just google about it or [go here](http://web.mit.edu/hyperbook/Patrikalakis-Maekawa-Cho/node17.html) ^^.
+Assuming you already know a little about B-spline curves, otherwise google it or [check this out](http://web.mit.edu/hyperbook/Patrikalakis-Maekawa-Cho/node17.html).
 
 Let consider a 9 points list named __plist__ :
 
@@ -27,7 +27,7 @@ We will do two things :
 
 * B. Find(interpolate) and draw the B-spline curve that go trough __plist__ points and or in other words __a curve fitting__ using a cubic B-spline curve.
 
-As we will work with Numpy , let's create a numpy array named __ctr__ form __plist__  a split it to __x__ and __y__ arrays.
+As we will work with Numpy , let's create a numpy array named __ctr__ from __plist__  ,and then split it into __x__ and __y__ arrays.
 ```python
 ctr =np.array(plist)
 
