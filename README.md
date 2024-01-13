@@ -93,7 +93,7 @@ y=ctr[:,1]
 ```
 To interpolate the B-spline that go through this points. To do so, we will be using __scipy.interpolate.splprep__, to get the interpolated S-pline parameters :
 ```python
-u,tck=interpolate.splprep([x,y],k=3,s=0)
+tck,_=interpolate.splprep([x,y],k=3,s=0)
 ```
 And we use them to evaluate it using __scipy.interpolate.splev__, we still have a to redefine __u__ variable to get a clear plot :
 ```python
